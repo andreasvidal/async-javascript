@@ -183,3 +183,5 @@ setTimeout(async () => {
   const resultadoAsync = await procesarPedido(pedido);
   console.log("Resultado:", resultadoAsync);
 }, 3000);
+
+/*Ejercicio: Crea un sistema de sincronización de datos que descargue información de múltiples APIs, la procese, y la guarde localmente. Implementa reintentos automáticos en caso de fallos, logging detallado de progreso, y manejo de timeouts. Compara la implementación usando callbacks vs Promises vs async/await.*/
